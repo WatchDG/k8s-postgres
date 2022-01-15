@@ -1,0 +1,1 @@
+kubectl port-forward -n postgres svc/postgres 5432:5432

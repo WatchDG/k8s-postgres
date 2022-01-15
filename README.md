@@ -1,7 +1,24 @@
 # k8s-postgres
 
-## TODO
+## Deploy
+```shell
+kubectl apply -f .
+```
 
-1) change password
-2) change namespace
-3) change storage value
+## Delete
+```shell
+kubectl delete -f . 
+```
+
+## Defaults
+```text
+database: postgres
+user: postgres
+password: postgres
+```
+
+## Port forward
+```shell
+# Windows
+.\port-forward.bat
+```
